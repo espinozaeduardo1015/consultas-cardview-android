@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Consulta Py</string>
+    <string name="action_settings">Settings</string>
+    <string name="toolbar_title">Contactos</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Buscar…</string>
+    <string name="title_activity_contacto_uni">ContactoUniActivity</string>
+    <string name="title_activity_navg">NavgActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_maps_uni">Map</string>
+    <string name="denuncia">Enviar Denuncia</string>
+    <string name="Rectorado">Rectorado</string>
+    <string name="Medicina">Medicina</string>
+    <string name="ingenieria">Ingenieria</string>
+    <string name="Humanidades">Humanidades</string>
+    <string name="derecho">Derecho</string>
+    <string name="cyt">CyT</string>
+    <string name="CienciasEconomicas">Ciencias Economicas</string>
+    <string name="Agronomia">Agronomia</string>
+    <string name="ContactoP">Contactos Poder Judicial</string>
+    <string name="arancelP">Arancel Poder Judicial</string>
+    <string name="contactoMuni">Contactos</string>
+    <string name="arancelUni">Arancel Uni</string>
+    <string name="arancelMuni">Arancel Municipalidad</string>
+</resources>

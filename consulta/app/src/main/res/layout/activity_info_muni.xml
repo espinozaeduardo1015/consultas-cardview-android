@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".contactoUni.InfoMuniActivity">
+
+    <WebView
+        android:id="@+id/webWiewInfoMuni"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:fillViewport="true">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical"-->
+            <!--android:padding="20dp">-->
+
+
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:padding="8dp"-->
+                <!--android:text="•	Trámite y arancel a abonar de la Municipalidad"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:padding="10dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="•	Los pagos correspondientes al Impuesto Fijo Anual, Patente Fija Anual, Canon Mensual, Tasa Mensual se realizan en la Municipalidad de Encarnación en el horario fijado por la misma, según calendario de vencimiento de impuestos que se describe a continuación:"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:textAlignment="inherit"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="8dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="1.	Servicio de recolección de basura y barrido: Bimestral"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:textColor="@color/common_google_signin_btn_text_light_pressed"-->
+                <!--android:textAlignment="inherit"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="a.	Enero, Marzo, Mayo, Julio, Setiembre y Noviembre"-->
+
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+
+            <!--<TextView-->
+                <!--android:padding="8dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="2.  Patente Comercial y Profesional: Semestral"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:textColor="@color/common_google_signin_btn_text_light_pressed"-->
+                <!--android:textAlignment="inherit"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="a.  Primer Semestre: Enero"-->
+
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="b.  Segundo semestre : Julio"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--&lt;!&ndash;3&ndash;&gt;-->
+
+            <!--<TextView-->
+                <!--android:padding="8dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="3.	Patente de Rodados: Anual"-->
+                <!--android:textColor="@color/common_google_signin_btn_text_light_pressed"-->
+
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="a.	30 de Junio"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+         <!--&lt;!&ndash;4&ndash;&gt;-->
+            <!--<TextView-->
+                <!--android:padding="8dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="4.	Licencia de Conducir: Anual"-->
+                <!--android:textColor="@color/common_google_signin_btn_text_light_pressed"-->
+
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="a.	31 de marzo"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+     <!--&lt;!&ndash;impuesto&ndash;&gt;-->
+
+            <!--<TextView-->
+                <!--android:padding="10dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Impuesto Municipal"-->
+                <!--android:textColor="@color/common_google_signin_btn_text_light_pressed"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="30dp"-->
+                <!--/>-->
+
+
+            <!--<TextView-->
+                <!--android:padding="8dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Según la Ley Orgánica Municipal, son considerados Impuestos Municipales a los cuales están sujetos los contribuyentes:"-->
+                <!--android:textColor="@color/common_google_signin_btn_text_light_pressed"-->
+
+                <!--android:textSize="25dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="a) impuesto inmobiliario, en los porcentajes establecidos en la Constitución Nacional;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="b) Impuesto a los baldíos y a inmuebles de grandes extensiones;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="c) patente comercial, industrial y profesional;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+            <!--android:padding="5dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="d) patentes de rodados;"-->
+            <!--android:textSize="20dp"-->
+            <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="e) a la construcción;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="f) al fraccionamiento de la propiedad inmobiliaria;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="g) a la transferencia de dominio de bienes raíces;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="h) edilicio;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="i) de registro de marcas de ganado;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="j) de transferencia y faenamiento de ganado;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="k) al transporte público de pasajeros;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="l) a los espectáculos públicos y a los juegos de entretenimientos y de azar;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="m) a las rifas y sorteos;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="n) a las operaciones de crédito;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="ñ) a la publicidad y propaganda;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+            <!--android:padding="5dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="o) a sellados y estampillas municipales;"-->
+            <!--android:textSize="20dp"-->
+            <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="p) de cementerios;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="q) a los propietarios de animales;"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="r) los demás creados por Ley."-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:padding="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Tasa Municipal"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textColor="@color/common_google_signin_btn_text_light_pressed"-->
+                <!--android:textSize="30dp"-->
+                <!--/>-->
+
+
+        <!--</LinearLayout>-->
+
+
+    <!--</ScrollView>-->
+
+
+
+</LinearLayout>
